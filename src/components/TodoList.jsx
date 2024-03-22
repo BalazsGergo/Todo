@@ -52,7 +52,7 @@ function TodoList() {
         m: 3,
     }}>
         <Typography variant='h2' component='h1' sx={{flexGrow: 1}}>
-            Todos
+            Todos i have to do
         </Typography>
         <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
             {todos.map((todo) => {
